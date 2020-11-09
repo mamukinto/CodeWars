@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+// LINK FOR THE KATA DOWN BELOW :)
+//
+//  https://www.codewars.com/kata/5467e4d82edf8bbf40000155
+//
+//
+
 public class DescendingOrder {
     public static int sortDesc(final int num) {
         // variables

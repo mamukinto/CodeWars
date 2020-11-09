@@ -2,6 +2,12 @@ package equalsidesofanarray;
 
 import java.util.Arrays;
 
+// LINK FOR THE KATA DOWN BELOW :)
+//
+//  https://www.codewars.com/kata/5679aa472b8f57fb8c000047
+//
+//
+
 public class Kata {
     public static int findEvenIndex(int[] arr) {
         int index = -1;
@@ -25,11 +31,5 @@ public class Kata {
             
         }
         return index;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(Arrays.copyOfRange(new int[]{1, 2, 3, 4, 3, 2, 1}, 0, 3)));
-        System.out.println(Arrays.toString(Arrays.copyOfRange(new int[]{1, 2, 3, 4, 3, 2, 1}, 4, 7)));
-        System.out.println(new int[]{1, 2, 3, 4, 3, 2, 1}.length);
     }
 }

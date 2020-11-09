@@ -1,5 +1,12 @@
 package tenminutewalk;
 
+
+// LINK FOR THE KATA DOWN BELOW :)
+//
+//  https://www.codewars.com/kata/54da539698b8a2ad76000228
+//
+//
+
 public class TenMinuteWalk {
     public static boolean isValid(char[] walk) {
         int n = 0;

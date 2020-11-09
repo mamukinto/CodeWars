@@ -1,5 +1,10 @@
 package bouncingball;
 
+// LINK FOR THE KATA DOWN BELOW :)
+//
+//  https://www.codewars.com/kata/5544c7a5cb454edb3c000047
+//
+//
 public class BouncingBall {
     public static int bouncingBall(double h, double bounce, double window) {
         if ((bounce >= 1 || bounce <= 0) || h <= 0 || window >= h) {
