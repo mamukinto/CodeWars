@@ -20,12 +20,11 @@ public class Line {
         String result = null;
         while(countDrunkColas != n) {
             result = namesList.get(0);
-            System.out.println(namesList);
+//            System.out.println(namesList);
             String[] doubled = doubleName(namesList.get(0));
             namesList.remove(namesList.get(0));
             namesList.addAll(Arrays.asList(doubled));
             countDrunkColas++;
-
         }
 
      return result;
@@ -36,6 +35,6 @@ public class Line {
     }
 
     public static void main(String[] args) {
-        System.out.println(whoIsNext(new String[]{"1","2","3","4","5","6"},17));
+        System.out.println(whoIsNext(new String[]{"kote","yulia","ana","mamuka"},1000000));
     }
 }

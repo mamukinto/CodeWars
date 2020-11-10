@@ -7,4 +7,8 @@ public class LineClever {
         while (n >= l) { n -= l; l *= 2; }
         return names[(int) (Math.ceil(names.length * n / l)-1)];
     }
+
+    public static void main(String[] args) {
+        System.out.println(whoIsNext(new String[]{"kote","yulia","ana","mamuka"},1000000));
+    }
 }
