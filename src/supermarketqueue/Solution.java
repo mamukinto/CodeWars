@@ -38,8 +38,8 @@ public class Solution {
         }
 
 
-//        System.out.println(tillList);
-//        System.out.println(customersList);
+        System.out.println(tillList);
+        System.out.println(customersList);
 
 
         return count;
