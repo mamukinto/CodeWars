@@ -39,6 +39,6 @@ public class Kata {
     }
 
     public static void main(String[] args) {
-        System.out.println(formatWords(new String[]{"","ana"}));
+        System.out.println(formatWords(new String[]{"kote","","mamuka","ana"}));
     }
 }

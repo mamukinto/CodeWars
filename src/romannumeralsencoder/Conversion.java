@@ -41,5 +41,6 @@ public class Conversion {
             System.out.println("arabic: " + i + " - roman: " + solution(i));
         }
 //        solution(1);
+//        System.out.println(solution(1666));
     }
 }
